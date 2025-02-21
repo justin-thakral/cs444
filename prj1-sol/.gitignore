@@ -16,3 +16,4 @@ Thumbs.db
 *.tsbuildinfo
 
 README.md
+package-lock.json

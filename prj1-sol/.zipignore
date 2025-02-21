@@ -1,0 +1,18 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore compiled files
+dist/
+*.js
+*.d.ts
+
+# Ignore lock files
+package-lock.json
+
+# Ignore system and editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

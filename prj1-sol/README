@@ -8,3 +8,6 @@ wget --user=sunybing --password=sunybing -r -np -nH --cut-dirs=3 -R "index.html*
 --2025-02-19 17:33:17--  https://zdu.binghamton.edu/cs544/projects/prj1/prj1-sol/
 
 I am more familair with wget so I used it along with WSL to download all the files. I am not a big fan of using VM so I instead use a linux based terminal on windows and it performs the same.
+
+My github is here in a public repo... I was not commiting properly this time and rather pushed everything at the end which i will not do next time... 
+http://github.com/justin-thakral/cs444 
