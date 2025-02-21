@@ -1,0 +1,29 @@
+{
+    "name": "prj1-sol",
+    "version": "1.0.0",
+    "description": "Name:\t\tXXX B-Number:\tXXX Email:\t\tXXX",
+    "main": "index.js",
+    "scripts": {
+        "clean": "shx rm -rf dist",
+        "build": "npx tsc",
+        "postbuild": "shx test -e dist/index.js && shx chmod a+x dist/index.js || true",
+        "watch": "tsc --watch",
+        "pretest": "npm run build",
+        "test": "mocha --reporter-options maxDiffSize=128000 dist/test",
+        "predebug-test": "npm run build",
+        "debug-test": "mocha --inspect-brk dist/test"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/chai": "^5.0.1",
+        "@types/mocha": "^10.0.10",
+        "@types/node": "^22.13.4",
+        "chai": "^5.2.0",
+        "mocha": "^11.1.0",
+        "shx": "^0.3.4",
+        "typescript": "^5.7.3"
+    }
+}

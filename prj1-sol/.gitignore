@@ -1,0 +1,16 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore build and compiled files
+dist/
+*.log
+
+# Ignore OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Ignore TypeScript build artifacts
+*.tsbuildinfo
